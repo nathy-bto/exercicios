@@ -1,4 +1,4 @@
-//Crie uma função recursiva que receba um número inteiro N e imprima todos os números naturais de 0 até N em ordem crescente.
+//Crie uma função recursiva que receba um número inteiro N e imprima todos os números naturais de 0 até N em ordem decrescente.
 #include <stdio.h>
     void imprima (int n)
     {
@@ -13,6 +13,7 @@
 
 int main (){
     int valor;
+
     printf("digite um número para ser realizada a contagem de 0 ate ele: ");
     scanf("%d", valor);
 
