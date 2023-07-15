@@ -55,7 +55,8 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "files.associations": {
-    "vetor5.C": "cpp"
+    "vetor5.C": "cpp",
+    "struct1.C": "cpp"
   },
   "C_Cpp_Runner.useLinkTimeOptimization": false
 }
