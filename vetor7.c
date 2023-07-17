@@ -2,19 +2,23 @@
 //Em seguida deverão ser impressos o maior e o menor elemento desse vetor.
 #include <stdio.h>
 int main (){
-int X[10], maior, menor, valor=0;
-for (int i = 0; i < 9; i++)
+int X[3], maior=0, menor=0, valor=0;
+for (int i = 0; i < 3; i++)
 {
     printf("digite o %d valor: ", i+1);
-    scanaf("%d", &X[i]);
+    scanf("%d", &X[i]);
     if (X > valor)
     {
         maior= X;
-    }else{
         valor= X;
-    }
-    printf("o maior valor é: ", menor);
-    
+    }if(X < valor)
+    {
+        menor= valor;
+        valor=X;
+    }    
 }
+    printf("o maior valor é: %d", maior);
+    printf("o maior valor é: %d", valor);
 
+return 0;
 }
