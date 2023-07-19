@@ -57,7 +57,8 @@
   "files.associations": {
     "vetor5.C": "cpp",
     "struct1.C": "cpp",
-    "pont1.C": "cpp"
+    "pont1.C": "cpp",
+    "stdio.h": "c"
   },
   "C_Cpp_Runner.useLinkTimeOptimization": false
 }
